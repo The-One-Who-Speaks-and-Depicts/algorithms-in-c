@@ -1,5 +1,5 @@
 # include <stdio.h>
-# include "better_linear_search.h"
+# include "../src/better_linear_search/better_linear_search.h"
 # include "assert.h"
 
 void value_not_found() {

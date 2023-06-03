@@ -1,5 +1,5 @@
 # include <stdio.h>
-# include "sentinel_linear_search.h"
+# include "../src/sentinel_linear_search/sentinel_linear_search.h"
 # include "assert.h"
 
 void value_not_found() {

@@ -10,42 +10,11 @@ on:
   
 jobs:
 
-  test-linear-search:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Compile
+      - name: Run tests
         run: |
-          cd linear_search
-          make test
-      - name: Test
-        run: |
-          cd linear_search
-          ./test
-
-  test-better-linear-search:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Compile
-        run: |
-          cd better_linear_search
-          make test
-      - name: Test
-        run: |
-          cd better_linear_search
-          ./test
-  
-  test-sentinel-linear-search:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Compile
-        run: |
-          cd sentinel_linear_search
-          make test
-      - name: Test
-        run: |
-          cd sentinel_linear_search
-          ./test
-
+          cd tests
+          bash pipeline.sh
