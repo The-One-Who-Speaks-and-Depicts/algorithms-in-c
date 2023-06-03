@@ -3,7 +3,10 @@
 
 int linearSearch(int originalArray[], int lengthToSearch, int valueToSearch) {
 	int answer = -1;
-	int size = sizeof(originalArray) / sizeof(originalArray[0]);
+	int size = 0;
+	while (originalArray[size]) {
+		size++;
+	}
 	if (size < lengthToSearch) {
 		return answer;
 	}

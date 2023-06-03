@@ -1,4 +1,4 @@
-name: Tests
+name: Simple verification tests
 
 on:
   push:
@@ -35,3 +35,17 @@ jobs:
         run: |
           cd better_linear_search
           ./test
+  
+  test-sentinel-linear-search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Compile
+        run: |
+          cd sentinel_linear_search
+          make test
+      - name: Test
+        run: |
+          cd sentinel_linear_search
+          ./test
+

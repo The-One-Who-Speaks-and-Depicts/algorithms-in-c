@@ -2,7 +2,10 @@
 #include "better_linear_search.h"
 
 int betterLinearSearch(int originalArray[], int lengthToSearch, int valueToSearch) {
-	int size = sizeof(originalArray) / sizeof(originalArray[0]);
+	int size = 0;
+	while (originalArray[size]) {
+		size++;
+	}
 	if (size < lengthToSearch) {
 		return -1;
 	}
