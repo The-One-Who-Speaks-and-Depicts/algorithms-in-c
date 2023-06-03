@@ -19,7 +19,11 @@ jobs:
           cd linear_search
           make test
       - name: Test
-        run: ./test
+        run:
+          ls
+          cd linear_search
+          ls
+          ./test
 
   test-better-linear-search:
     runs-on: ubuntu-latest
