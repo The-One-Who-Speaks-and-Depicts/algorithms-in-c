@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
 	length_is_too_big();
 	everything_is_correct();
 
-	printf("Tests passed!\n");
+	printf("Better linear search tests passed!\n");
 	
 	return 0;
 }

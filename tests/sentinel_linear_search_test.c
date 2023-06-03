@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
 	searched_value_in_array();
 	searched_value_is_last_value_of_array();
 
-	printf("Tests passed!\n");
+	printf("Sentinel linear search tests passed!\n");
 	
 	return 0;
 }
