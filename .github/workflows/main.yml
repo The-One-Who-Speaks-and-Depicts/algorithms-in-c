@@ -20,7 +20,7 @@ jobs:
           make test
       - name: Test
         run: |
-          ls
+          cd linear_search
           ./test
 
   test-better-linear-search:
@@ -33,4 +33,5 @@ jobs:
           make test
       - name: Test
         run: |
+          cd better_linear_search
           ./test
