@@ -1,0 +1,33 @@
+name: Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+  
+jobs:
+
+  test-linear-search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Compile
+        run: |
+          cd linear_search
+          make test
+      - name: Test
+        run: ./test
+
+  test-better-linear-search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Compile
+        run: |
+          cd better_linear_search
+          make test
+      - name: Test
+        run: ./test
