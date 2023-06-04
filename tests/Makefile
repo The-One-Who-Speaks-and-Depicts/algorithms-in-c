@@ -9,3 +9,6 @@ linear_search_test: linear_search_test.c ../src/linear_search/linear_search.c
 
 factorial_test: factorial_test.c ../src/factorial/factorial.c 
 	g++ -o factorial_test factorial_test.c ../src/factorial/factorial.c
+
+recursive_linear_search_test: recursive_linear_search_test.c ../src/recursive_linear_search/recursive_linear_search.c
+	g++ -o recursive_linear_search_test recursive_linear_search_test.c ../src/recursive_linear_search/recursive_linear_search.c

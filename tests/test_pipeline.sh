@@ -9,3 +9,6 @@ make sentinel_linear_search_test
 
 make factorial_test
 ./factorial_test
+
+make recursive_linear_search_test
+./recursive_linear_search_test
