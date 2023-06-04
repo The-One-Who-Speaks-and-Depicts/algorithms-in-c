@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
         char *endptr;
 
         errno = 0; // reset error number
-        number = strtol(buf, &endptr, 10);
+        number = strtoi(buf, &endptr, 10);
         if (errno == ERANGE)
         {
             printf("Sorry, this number is too small or too large.\n");
