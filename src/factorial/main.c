@@ -54,5 +54,5 @@ int main(int argc, char *argv[]) {
         exit(-1);
     }
     printf("%d! is %d.\n", number, result);
-    return 1;
+    return 0;
 }

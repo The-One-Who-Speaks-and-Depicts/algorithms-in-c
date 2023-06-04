@@ -33,5 +33,5 @@ int main(int argc, char *argv[]) {
     positive_shouldReturnFactorial();
 
     printf("Factorial tests passed!\n");    
-    return 1;
+    return 0;
 }
