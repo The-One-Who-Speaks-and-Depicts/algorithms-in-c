@@ -6,3 +6,6 @@ better_linear_search_test: better_linear_search_test.c ../src/better_linear_sear
 
 linear_search_test: linear_search_test.c ../src/linear_search/linear_search.c
 	g++ -o linear_search_test linear_search_test.c ../src/linear_search/linear_search.c
+
+factorial_test: factorial_test.c ../src/factorial/factorial.c 
+	g++ -o factorial_test factorial_test.c ../src/factorial/factorial.c
