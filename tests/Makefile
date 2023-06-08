@@ -15,3 +15,6 @@ recursive_linear_search_test: recursive_linear_search_test.c ../src/recursive_li
 
 binary_search_test: binary_search_test.c ../src/binary_search/binary_search.c
 	g++ -o binary_search_test binary_search_test.c ../src/binary_search/binary_search.c
+
+recursive_binary_search_test: recursive_binary_search_test.c ../src/recursive_binary_search/recursive_binary_search.c
+	g++ -o recursive_binary_search_test recursive_binary_search_test.c ../src/recursive_binary_search/recursive_binary_search.c

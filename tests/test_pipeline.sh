@@ -15,3 +15,6 @@ make recursive_linear_search_test
 
 make binary_search_test
 ./binary_search_test
+
+make recursive_binary_search_test
+./recursive_binary_search_test
