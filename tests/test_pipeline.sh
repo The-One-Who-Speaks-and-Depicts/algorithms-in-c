@@ -18,3 +18,6 @@ make binary_search_test
 
 make recursive_binary_search_test
 ./recursive_binary_search_test
+
+make utils_test
+./utils_test

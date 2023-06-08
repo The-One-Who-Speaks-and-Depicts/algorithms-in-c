@@ -1,3 +1,5 @@
+# search tests
+
 sentinel_linear_search_test: sentinel_linear_search_test.c ../src/sentinel_linear_search/sentinel_linear_search.c 
 	g++ -o sentinel_linear_search_test sentinel_linear_search_test.c ../src/sentinel_linear_search/sentinel_linear_search.c -Wno-sizeof-array-argument
 
@@ -18,3 +20,9 @@ binary_search_test: binary_search_test.c ../src/binary_search/binary_search.c
 
 recursive_binary_search_test: recursive_binary_search_test.c ../src/recursive_binary_search/recursive_binary_search.c
 	g++ -o recursive_binary_search_test recursive_binary_search_test.c ../src/recursive_binary_search/recursive_binary_search.c
+
+
+# utils tests
+
+utils_test: utils_test.c ../src/utils/utils.c
+	g++ -o utils_test utils_test.c ../src/utils/utils.c
