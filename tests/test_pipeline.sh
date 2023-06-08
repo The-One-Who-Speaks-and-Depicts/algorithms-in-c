@@ -12,3 +12,6 @@ make factorial_test
 
 make recursive_linear_search_test
 ./recursive_linear_search_test
+
+make binary_search_test
+./binary_search_test
