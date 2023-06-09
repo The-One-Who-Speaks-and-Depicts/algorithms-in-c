@@ -21,6 +21,10 @@ binary_search_test: binary_search_test.c ../src/binary_search/binary_search.c
 recursive_binary_search_test: recursive_binary_search_test.c ../src/recursive_binary_search/recursive_binary_search.c
 	g++ -o recursive_binary_search_test recursive_binary_search_test.c ../src/recursive_binary_search/recursive_binary_search.c
 
+# sort tests
+
+selection_sort_test:  selection_sort_test.c ../src/selection_sort/selection_sort.c ../src/utils/utils.c
+	g++ -o selection_sort_test selection_sort_test.c ../src/selection_sort/selection_sort.c ../src/utils/utils.c
 
 # utils tests
 

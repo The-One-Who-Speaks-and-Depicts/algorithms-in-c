@@ -1,3 +1,5 @@
+# search tests
+
 make linear_search_test
 ./linear_search_test
 
@@ -18,6 +20,8 @@ make binary_search_test
 
 make recursive_binary_search_test
 ./recursive_binary_search_test
+
+# utils tests
 
 make utils_test
 ./utils_test
