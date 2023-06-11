@@ -26,6 +26,9 @@ recursive_binary_search_test: recursive_binary_search_test.c ../src/recursive_bi
 selection_sort_test:  selection_sort_test.c ../src/selection_sort/selection_sort.c ../src/utils/utils.c
 	g++ -o selection_sort_test selection_sort_test.c ../src/selection_sort/selection_sort.c ../src/utils/utils.c
 
+insertion_sort_test:  insertion_sort_test.c ../src/insertion_sort/insertion_sort.c
+	g++ -o insertion_sort_test insertion_sort_test.c ../src/insertion_sort/insertion_sort.c
+
 # utils tests
 
 utils_test: utils_test.c ../src/utils/utils.c

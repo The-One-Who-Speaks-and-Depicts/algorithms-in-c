@@ -21,6 +21,14 @@ make binary_search_test
 make recursive_binary_search_test
 ./recursive_binary_search_test
 
+# sort tests
+
+make selection_sort_test
+./selection_sort_test
+
+make insertion_sort_test
+./insertion_sort_test
+
 # utils tests
 
 make utils_test
